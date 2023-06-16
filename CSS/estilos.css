@@ -184,3 +184,51 @@ body {
 .about-1 {
     width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+    
+  
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-txt {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .header-txt h1 {
+      font-size: 40px;
+      line-height: 50px;
+      text-align: center;
+    }
+  
+    .header-img {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .header-img img {
+      height: auto;
+      width: 80%;
+    }
+  
+    .games-content {
+      flex-wrap: wrap;
+    }
+  
+    .games img {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-1 {
+      width: 100%;
+    }
+  }
+  
