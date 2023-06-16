@@ -186,100 +186,73 @@ body {
 }
 
 @media (max-width: 991px) {
-	.header {
-	  min-height: 50vh;
-	}
-  
-	.header-content {
-	  flex-direction: column;
-	}
-  
-	.header-txt {
-	  margin-bottom: 30px;
-	}
-  
-	.header-img {
-	  width: 100%;
-	  margin-bottom: 30px;
-	}
-  
-	.games {
-	  padding: 0 0 30px 0;
-	}
-  
-	.txt {
-	  flex-direction: column;
-	}
-  
-	.txt h2 {
-	  margin-bottom: 10px;
-	}
-  
-	.games-content {
-	  flex-direction: column;
-	}
-  
-	.games img {
-	  margin: 0 0 10px 0;
-	  width: 100%;
-	}
-  
-	.follo {
-	  margin-top: 0;
-	}
-  
-	.btn-2 {
-	  margin-top: 10px;
-	}
+
+  .menu{
+    padding: 30px;
+
   }
-  
-  @media (max-width: 767px) {
-	.header {
-	  min-height: 40vh;
-	}
-  
-	.header-content {
-	  flex-direction: column;
-	}
-  
-	.header-txt {
-	  margin-bottom: 20px;
-	}
-  
-	.header-img {
-	  width: 100%;
-	  margin-bottom: 20px;
-	}
-  
-	.games {
-	  padding: 0 0 20px 0;
-	}
-  
-	.txt {
-	  flex-direction: column;
-	}
-  
-	.txt h2 {
-	  margin-bottom: 10px;
-	}
-  
-	.games-content {
-	  flex-direction: column;
-	}
-  
-	.games img {
-	  margin: 0 0 10px 0;
-	  width: 100%;
-	}
-  
-	.follo {
-	  margin-top: 0;
-	}
-  
-	.btn-2 {
-	  margin-top: 10px;
-	}
+  .menu label {
+    display: initial;
   }
+  .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1F1F1F;
+    display: none;
+  }
+  .menu .navbar ul li{
+    width: 100%;
+  }
+  #menu:checked ~ .navbar{
+    display: initial;
+  }
+
+
+  .header{
+    min-height: 0vh;
+  }
+  .header-content{
+    flex-direction: column;
+    padding: 100px 30px 30px 30px;
+  }
+  .header-txt{
+    width: 100%;
+    text-align: center;
+  }
+  .header-txt h1{
+    margin-bottom: 15ps;
+  }
+  .header-img{
+    width: 100%;
+  }
+  .header-img img{
+    width: 100%;
+    height: 300px;
+  }
+  .games {
+    padding: 30px;
+  }
+  .ba {
+    display: none;
+  }
+  .games-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .game{
+    margin-bottom: 15px;
+  }
+  .btn-2{
+    width: 110px;
+  }
+
+
+
+
+}
+
 
 
   
